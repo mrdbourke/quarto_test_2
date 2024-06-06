@@ -1,62 +1,50 @@
 [
   {
-    "objectID": "notebooks/hello_2.html",
-    "href": "notebooks/hello_2.html",
-    "title": "Quarto Basics 2",
+    "objectID": "notebooks/hello.html",
+    "href": "notebooks/hello.html",
+    "title": "Quarto Basics 1",
     "section": "",
-    "text": "How does this work?\nCan I deploy from nested folders?\nI’d like to keep the root/ dir nice and clean.\n\n# Let's practice a cell output and see if I can get it to be presented nicely\nprint(\"Testing cell output\")\n\nTesting cell output\n\n\n\n# And then if I add another output here\nprint(\"Another output\")\n\nAnother output",
+    "text": "Welcome to the new website to learn about code.\nAll of these examples are available on GitHub.\nFeel free to explore them where you like.\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 4 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis.\n\n\n\n\n\n\n\n\nDoes this update on demand if I type in here and save?\n\n# Omg it does, if I type code here and save, it appears in the local host \n\nThis is a game changer! I can see immediately the results of my code and have it output to a live server to see how it will render :D\n\n\n\nHow do this one go?\nIf I push a commit to main, does this appear on the website?",
     "crumbs": [
       "Home",
       "Get started",
-      "Notebook 2"
+      "Notebook 1"
     ]
   },
   {
-    "objectID": "notebooks/hello_2.html#what-if-i-make-another-notebook-here",
-    "href": "notebooks/hello_2.html#what-if-i-make-another-notebook-here",
-    "title": "Quarto Basics 2",
+    "objectID": "notebooks/hello.html#polar-axis",
+    "href": "notebooks/hello.html#polar-axis",
+    "title": "Quarto Basics 1",
     "section": "",
-    "text": "How does this work?\nCan I deploy from nested folders?\nI’d like to keep the root/ dir nice and clean.\n\n# Let's practice a cell output and see if I can get it to be presented nicely\nprint(\"Testing cell output\")\n\nTesting cell output\n\n\n\n# And then if I add another output here\nprint(\"Another output\")\n\nAnother output",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 4 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis.",
     "crumbs": [
       "Home",
       "Get started",
-      "Notebook 2"
+      "Notebook 1"
     ]
   },
   {
-    "objectID": "notebooks/hello_2.html#onto-the-code",
-    "href": "notebooks/hello_2.html#onto-the-code",
-    "title": "Quarto Basics 2",
-    "section": "Onto the code…",
-    "text": "Onto the code…\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 4 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis.",
+    "objectID": "notebooks/hello.html#running-a-test",
+    "href": "notebooks/hello.html#running-a-test",
+    "title": "Quarto Basics 1",
+    "section": "",
+    "text": "Does this update on demand if I type in here and save?\n\n# Omg it does, if I type code here and save, it appears in the local host \n\nThis is a game changer! I can see immediately the results of my code and have it output to a live server to see how it will render :D",
     "crumbs": [
       "Home",
       "Get started",
-      "Notebook 2"
+      "Notebook 1"
     ]
   },
   {
-    "objectID": "notebooks/hello_2.html#running-a-test",
-    "href": "notebooks/hello_2.html#running-a-test",
-    "title": "Quarto Basics 2",
-    "section": "Running a test",
-    "text": "Running a test\nDoes this update on demand if I type in here and save?\n\n# Omg it does, if I type code here and save, it appears in the local host \n\nThis is a game changer! I can see immediately the results of my code and have it output to a live server to see how it will render :D",
+    "objectID": "notebooks/hello.html#another-test-of-an-update",
+    "href": "notebooks/hello.html#another-test-of-an-update",
+    "title": "Quarto Basics 1",
+    "section": "",
+    "text": "How do this one go?\nIf I push a commit to main, does this appear on the website?",
     "crumbs": [
       "Home",
       "Get started",
-      "Notebook 2"
-    ]
-  },
-  {
-    "objectID": "notebooks/hello_2.html#another-test-of-an-update",
-    "href": "notebooks/hello_2.html#another-test-of-an-update",
-    "title": "Quarto Basics 2",
-    "section": "Another test of an update",
-    "text": "Another test of an update\nHow do this one go?\nIf I push a commit to main, does this appear on the website?",
-    "crumbs": [
-      "Home",
-      "Get started",
-      "Notebook 2"
+      "Notebook 1"
     ]
   },
   {
@@ -120,13 +108,6 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Quarto_test_2",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -134,51 +115,70 @@
     "text": "About this site"
   },
   {
-    "objectID": "notebooks/hello.html",
-    "href": "notebooks/hello.html",
-    "title": "Quarto Basics 1",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quarto_test_2",
     "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 4 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis.",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "notebooks/hello_2.html",
+    "href": "notebooks/hello_2.html",
+    "title": "Quarto Basics 2",
+    "section": "",
+    "text": "How does this work?\nCan I deploy from nested folders?\nI’d like to keep the root/ dir nice and clean.\n\n# Let's practice a cell output and see if I can get it to be presented nicely\nprint(\"Testing cell output\")\n\nTesting cell output\n\n\n\n# And then if I add another output here\nprint(\"Another output\")\n\nAnother output",
     "crumbs": [
       "Home",
       "Get started",
-      "Notebook 1"
+      "Notebook 2"
     ]
   },
   {
-    "objectID": "notebooks/hello.html#polar-axis",
-    "href": "notebooks/hello.html#polar-axis",
-    "title": "Quarto Basics 1",
+    "objectID": "notebooks/hello_2.html#what-if-i-make-another-notebook-here",
+    "href": "notebooks/hello_2.html#what-if-i-make-another-notebook-here",
+    "title": "Quarto Basics 2",
     "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 4 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis.",
+    "text": "How does this work?\nCan I deploy from nested folders?\nI’d like to keep the root/ dir nice and clean.\n\n# Let's practice a cell output and see if I can get it to be presented nicely\nprint(\"Testing cell output\")\n\nTesting cell output\n\n\n\n# And then if I add another output here\nprint(\"Another output\")\n\nAnother output",
     "crumbs": [
       "Home",
       "Get started",
-      "Notebook 1"
+      "Notebook 2"
     ]
   },
   {
-    "objectID": "notebooks/hello.html#running-a-test",
-    "href": "notebooks/hello.html#running-a-test",
-    "title": "Quarto Basics 1",
+    "objectID": "notebooks/hello_2.html#onto-the-code",
+    "href": "notebooks/hello_2.html#onto-the-code",
+    "title": "Quarto Basics 2",
+    "section": "Onto the code…",
+    "text": "Onto the code…\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 4 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis.",
+    "crumbs": [
+      "Home",
+      "Get started",
+      "Notebook 2"
+    ]
+  },
+  {
+    "objectID": "notebooks/hello_2.html#running-a-test",
+    "href": "notebooks/hello_2.html#running-a-test",
+    "title": "Quarto Basics 2",
     "section": "Running a test",
     "text": "Running a test\nDoes this update on demand if I type in here and save?\n\n# Omg it does, if I type code here and save, it appears in the local host \n\nThis is a game changer! I can see immediately the results of my code and have it output to a live server to see how it will render :D",
     "crumbs": [
       "Home",
       "Get started",
-      "Notebook 1"
+      "Notebook 2"
     ]
   },
   {
-    "objectID": "notebooks/hello.html#another-test-of-an-update",
-    "href": "notebooks/hello.html#another-test-of-an-update",
-    "title": "Quarto Basics 1",
+    "objectID": "notebooks/hello_2.html#another-test-of-an-update",
+    "href": "notebooks/hello_2.html#another-test-of-an-update",
+    "title": "Quarto Basics 2",
     "section": "Another test of an update",
     "text": "Another test of an update\nHow do this one go?\nIf I push a commit to main, does this appear on the website?",
     "crumbs": [
       "Home",
       "Get started",
-      "Notebook 1"
+      "Notebook 2"
     ]
   }
 ]
