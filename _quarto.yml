@@ -3,12 +3,25 @@ project:
   output-dir: docs
 
 website:
-  title: "Quarto_test_2"
+  title: "Test Quarto"
   navbar:
     left:
-      - href: index.qmd
+      - href: index.md
         text: Home
-      - about.qmd
+      - href: about.md
+        text: About
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Get started"
+        contents:
+          - href: notebooks/hello.ipynb
+            text: Notebook 1
+          - href: notebooks/hello_2.ipynb
+            text: Notebook 2
+          - href: notebooks/ztm_hugging_face_simple_text_classification.ipynb
+            text: Text Classification
 
 format:
   html:
