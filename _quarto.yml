@@ -6,9 +6,9 @@ website:
   title: "Test Quarto"
   navbar:
     left:
-      - href: index.md
+      - href: index.qmd
         text: Home
-      - href: about.md
+      - href: about.qmd
         text: About
   sidebar:
     style: "docked"
